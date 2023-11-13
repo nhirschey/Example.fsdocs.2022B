@@ -14,7 +14,7 @@ let x = 4
 
 <p>&#x1F389; - Party Popper</p>
 
-This is regular text introducing a tufte style blockquote. 
+This is regular text introducing a [tufte-css](https://edwardtufte.github.io/tufte-css/) style blockquote. 
 
 <blockquote class="tufte">F# gives you simplicity and succinctness like Python with correctness, robustness and performance beyond C# or Java.</blockquote>
 

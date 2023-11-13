@@ -706,7 +706,8 @@ blockquote.tufte {
     border-left: none;
     margin-left: 1.5em;
     padding-left: 0;
-    font-style: italic;
+    width: 55%;
+    margin-right: 40px;
 }
 
 /* GitHub Style */
