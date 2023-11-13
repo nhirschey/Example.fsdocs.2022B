@@ -1,39 +1,52 @@
-<style>
-    /* CommonMark.org Style */
-    blockquote.commonmark {
-      border-left: 4px solid #dfe2e5;
-      padding-left: 1em;
-      color: #242729;
-    }
+<p>&#x2764; - Heart</p>
 
-    /* Tufte Style */
-    blockquote.tufte {
-        border-left: none;
-        margin-left: 1.5em;
-        padding-left: 0;
-        font-style: italic;
-    }
+This is regular text introducing the current fsdocs modern style blockquote. 
 
-    /* GitHub Style */
-    blockquote.github {
-        border-left: .25em solid #dfe2e5;
-        padding: 0 1em;
-        color: #6a737d;
-    }
+<blockquote class="fsdocs">F# gives you simplicity and succinctness like Python with correctness, robustness and performance beyond C# or Java.</blockquote>
 
-    /* Daring Fireball Style */
-    blockquote.daringfireball {
-        border-left: 1px solid #ddd;
-        padding-left: 10px;
-        color: #333;
-        margin-left: 1.5em;
-    }
-</style>
 
-<blockquote class="commonmark">This is a CommonMark style blockquote.</blockquote>
+```fsharp
+// A code comment
+let x = 4
+```
 
-<blockquote class="tufte">This is a Tufte style blockquote.</blockquote>
+--------
 
-<blockquote class="github">This is a GitHub style blockquote.</blockquote>
+<p>&#x1F389; - Party Popper</p>
 
-<blockquote class="daringfireball">This is a Daring Fireball style blockquote.</blockquote>
+This is regular text introducing a tufte style blockquote. 
+
+<blockquote class="tufte">F# gives you simplicity and succinctness like Python with correctness, robustness and performance beyond C# or Java.</blockquote>
+
+
+```fsharp
+// A code comment
+let x = 4
+```
+------------
+<p>&#x1F615; - Confused</p>
+
+This is regular text introducing a GitHub style blockquote with additional left padding and no text color change. 
+
+
+<blockquote class="github">F# gives you simplicity and succinctness like Python with correctness, robustness and performance beyond C# or Java.</blockquote>
+
+
+```fsharp
+// A code comment
+let x = 4
+```
+-----------
+
+<p>&#x1F604; - Smile</p>
+
+This is regular text introducing a [daringfireball.net](https://www.daringfireball.net) style blockquote. 
+
+<blockquote class="daringfireball">F# gives you simplicity and succinctness like Python with correctness, robustness and performance beyond C# or Java.</blockquote>
+
+
+```fsharp
+// A code comment
+let x = 4
+```
+
