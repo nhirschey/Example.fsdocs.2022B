@@ -1,0 +1,41 @@
+/* CommonMark.org Style */
+blockquote.commonmark {
+    border-left: 4px solid #dfe2e5;
+    padding-left: 1em;
+    color: #242729;
+    background-color: var(--background);
+    font-family: var(--system-font);
+}
+
+/* Tufte Style */
+blockquote.tufte {
+    border-left: none;
+    margin-left: 1.5em;
+    padding-left: 0;
+    width: 55%;
+    margin-right: 40px;
+    background-color: var(--background);
+    font-family: var(--system-font);
+    color: var(--textcolor);
+}
+
+/* GitHub Style */
+blockquote.github {
+    border-left: .25em solid #dfe2e5;
+    margin-left: 1.5em;
+    padding: 0 1em;
+    border-radius: unset;
+    color: var(--textcolor);
+    background-color: var(--background);
+    font-family: var(--system-font);
+}
+
+/* Daring Fireball Style */
+blockquote.daringfireball {
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+    color: #333;
+    margin-left: 1.5em;
+    background-color: var(--background);
+    font-family: var(--system-font);
+}
